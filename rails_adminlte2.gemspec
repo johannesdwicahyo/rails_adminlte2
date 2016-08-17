@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "rails_adminlte2"
   spec.version       = RailsAdminlte2::VERSION
   spec.authors       = ["Johannes Dwi Cahyo"]
-  spec.email         = ["johannes@softwareseni.com"]
+  spec.email         = ["johannesdwicahyo@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
