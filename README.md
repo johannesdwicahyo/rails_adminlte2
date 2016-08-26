@@ -22,17 +22,26 @@ Or install it yourself as:
 
 Add the following to your `app/assets/javascripts/application.js`:
 
-  //= require bootstrap.min
-  //= require admin-lte
+  ```javascript
+    //= require adminlte/adminlte
+  ```
+
+And add the plugin you want, don't forget to add the css too
   
+  ```javascript
+    //= require adminlte/plugins/chartjs/Chart
+    //= require adminlte/plugins/jvectormap/jquery-jvectormap-1.2.2.min
+    //= require adminlte/plugins/jvectormap/jquery-jvectormap-world-mill-en
+    //= require adminlte/plugins/sparkline/jquery.sparkline
+  ```
 ### Include rails_adminlte2 stylesheet assets
 
 Add the following to your `app/assets/stylesheets/application.css`:
 
-  *= require bootstrap
-  *= require font-awesome
-  *= require ionicons
-  *= require admin-lte
+  ```css
+    @import "adminlte/adminlte";
+    @import "adminlte/skins/_all-skins";
+  ```
      
 If you want to use additional features, add more these lines to your `app/assets/stylesheets/application.css`:
 
@@ -49,7 +58,7 @@ Rails_AdminLte2 is released under the [MIT License](http://www.opensource.org/li
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/rails_adminlte2/fork )
+1. Fork it ( https://github.com/johannesdwicahyo/rails_adminlte2/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
